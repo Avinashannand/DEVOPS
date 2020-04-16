@@ -3,11 +3,11 @@ URL https://www.quora.com/ is accessible
 URL https://www.facebook.com/careers/ is accessible
 URL https://www.hoopladigital.com/ is not accessible and giving error with 301 http response code.
 URL https://vk.me/ is accessible
-URL https://www.publicisgroupe.com/en is not accessible and giving error with http response code.
+URL https://www.publicisgroupe.com/en is not accessible and giving error with 301 http response code.
 URL http://demo.appspot.com/ is not accessible and giving error with 404 http response code.
 URL https://api.sendgrid.com/v3/mail/send is not accessible and giving error with 405 http response code.
 URL https://odata.intel.com/ is accessible
 URL https://demo.appspot.com/_ah/api/v1 is not accessible and giving error with 404 http response code.
 URL https://api.workspan.com/v1/person/me is not accessible and giving error with 404 http response code.
 URL https://developers.google.com/ is accessible
-URL https://a1234.execute-api.us-west.amazonaws.com/start/ is not accessible and giving error with http response code.
+URL https://a1234.execute-api.us-west.amazonaws.com/start/ is not accessible and giving error with 404 http response code.
