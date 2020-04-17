@@ -23,3 +23,8 @@ Fourth and Fifth file is basically the output which will gets generated after ex
 From 4th and 5th file we can analyze the response time as well as http response code of the URL.
 
 Alerts will gets generated when http response code of URL will not 200. As soon as it gets other response code than 200, an alerts will gets triggerd on the provided email_id.
+
+WE need to set the cron job for this job by following below mentioned steps: -
+
+1) crontab -e  //This command is basically used for opening and editing the crontab file.
+2) */30 * * * *  sh /avinash/Python_code/Devops_Practice/monitoring_url_reacheability/monitoring_url.sh  // This cronjob will execute this scripts periodically after every 30 min.
