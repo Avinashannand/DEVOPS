@@ -2,9 +2,9 @@
 #set -x
 
 today=$(date +%Y_%m_%d_%H:%M:%S)
-input_file="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/url.csv"
-output_file="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/responsetime.csv_$today"
-output_file1="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/httpresponsecode.csv_$today"
+#input_file="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/url.csv"
+#output_file="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/responsetime.csv_$today"
+#output_file1="/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/httpresponsecode.csv_$today"
 
 #echo "output_file"
 
@@ -16,7 +16,7 @@ do
 for i in `echo "$line"`;
 do
 
-response_time=`/usr/bin/curl -w "@/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/curl-format.txt" -o /dev/null -s $i | tail -1 | awk '{print $2}'`		
+#response_time=`/usr/bin/curl -w "@/avinash/Python_code/Devops_Practice/monitoring_url_reacheability/curl-format.txt" -o /dev/null -s $i | tail -1 | awk '{print $2}'`		
 echo "$i", "$response_time" >> $output_file
 		 
 
